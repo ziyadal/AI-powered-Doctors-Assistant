@@ -15,7 +15,7 @@ npm install
 npm run dev
 ```
 
-Configure the Clerk variables required by `@clerk/nextjs`. The Python endpoint also requires `CLERK_JWKS_URL`, `OPENAI_API_KEY`, and the dependencies in `requirements.txt`.
+Copy `.env.example` to `.env.local` and replace every placeholder. The Python endpoint also requires the dependencies in `requirements.txt`.
 
 ## Important safety limitation
 
