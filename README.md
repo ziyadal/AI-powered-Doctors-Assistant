@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 
-The frontend requires Clerk configuration. The Python endpoint requires `CLERK_JWKS_URL`, an OpenAI API key, and the packages in `saas/requirements.txt`.
+Copy `saas/.env.example` to `saas/.env.local` and replace every placeholder. The frontend requires Clerk configuration; the Python endpoint requires `CLERK_JWKS_URL`, an OpenAI API key, and the packages in `saas/requirements.txt`.
 
 ## Safety and scope
 
